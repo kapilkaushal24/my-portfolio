@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/erp.jpg";
-import project2 from "../assets/projects/spotify-clone.png";
-import project3 from "../assets/projects/gemini-clone.png";
-import project4 from "../assets/projects/ai-image.jpg";
+import project1 from "../assets/projects/project1.jpg";
+import project2 from "../assets/projects/project2.png";
+import project3 from "../assets/projects/project3.png";
+import project4 from "../assets/projects/project4.jpg";
 
 export const HERO_CONTENT = `Full Stack Developer with 1.5 years of experience specializing in .NET Core, Web API, and React.js for building responsive web applications. Proficient in Git repository management, with a strong focus on front-end and back-end development. Hands on experience in C#, ASP.Net, MVC, .NET Core, Web API, ADO.NET, WEB FORMS, WIN FORMS, React JS, Database design and development. Possesses excellent analytical and problem-solving skills, a dedication to quality, and a drive for continuous improvement.`;
 
