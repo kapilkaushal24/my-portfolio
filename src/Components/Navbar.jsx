@@ -6,7 +6,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 mb-12 sm:mb-20 flex items-center justify-between py-4 sm:py-6 px-4 sm:px-6 lg:px-8">
+    <nav className="mb-12 sm:mb-20 flex items-center justify-between py-4 sm:py-6 px-2 sm:px-0">
       <div className="flex flex-shrink-0 items-center">
         <img className="mx-2 w-20 sm:w-24 lg:w-28" src={logo} alt="" />
       </div>
