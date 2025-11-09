@@ -10,6 +10,13 @@
   [build.environment]
     NODE_VERSION = "18"
     VITE_API_URL = "https://backend-portfolio-lpjj.onrender.com/api"
+  
+  # Build image - Ubuntu Noble 24.04
+  [build.processing]
+    skip_processing = false
+  
+[build.image]
+  name = "ubuntu-noble-24.04"
 
 # Redirect rules for SPA (Single Page Application)
 [[redirects]]
