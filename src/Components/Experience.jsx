@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useExperiences } from "../hooks/usePortfolioData";
 
 const Experience = () => {
-  const { experiences, loading, error } = useExperiences();
+  const { experiences, loading } = useExperiences();
 
   // Use API data if available, otherwise fallback to constants
   const experienceData = experiences && experiences.length > 0 ? experiences : EXPERIENCES;
@@ -28,9 +28,9 @@ const Experience = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1 }}
-                className="lg:w-1/4"
+                className="w-full lg:w-1/4 mb-2 lg:mb-0 px-2 sm:px-0"
               >
-                <p className="mb-2 text-sm text-neutral-400">
+                <p className="mb-2 text-xs sm:text-sm text-neutral-400">
                   {experience.year || experience.duration}
                 </p>
               </motion.div>
@@ -38,15 +38,15 @@ const Experience = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: 100 }}
                 transition={{ duration: 1 }}
-                className="w-full max-w-xl lg:w-3/4"
+                className="w-full max-w-xl lg:w-3/4 px-2 sm:px-0"
               >
-                <h6 className="mb-2 font-semibold">
+                <h6 className="mb-2 font-semibold text-base sm:text-lg">
                   {experience.role || experience.position} -{" "}
-                  <span className="text-sm text-purple-100">
+                  <span className="text-xs sm:text-sm text-purple-100">
                     {experience.company}
                   </span>
                 </h6>
-                <p className="mb-4 text-neutral-400">
+                <p className="mb-4 text-neutral-400 text-sm sm:text-base">
                   {experience.description}
                 </p>
                 <div className="flex flex-wrap gap-2 mt-4">
