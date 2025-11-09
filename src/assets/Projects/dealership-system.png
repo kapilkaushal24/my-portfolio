@@ -1,0 +1,159 @@
+<!-- AI-Driven Dealership Management System Architecture -->
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#1a1a2e"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">
+    AI-Driven Dealership Management System
+  </text>
+  
+  <!-- Frontend Layer -->
+  <rect x="50" y="80" width="700" height="80" rx="10" fill="url(#grad1)" opacity="0.8"/>
+  <text x="400" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+    Frontend Layer - React.js Dashboard
+  </text>
+  <text x="400" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">
+    Real-time Analytics • Vehicle Inventory • Sales Pipeline • Service Management
+  </text>
+  
+  <!-- API Gateway -->
+  <rect x="300" y="200" width="200" height="60" rx="8" fill="url(#grad2)" opacity="0.9"/>
+  <text x="400" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    API Gateway
+  </text>
+  <text x="400" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    .NET Core 8.0 • Authentication • Load Balancing
+  </text>
+  
+  <!-- Microservices -->
+  <rect x="50" y="300" width="140" height="100" rx="8" fill="#4a5568" stroke="#68d391" stroke-width="2"/>
+  <text x="120" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    Inventory Service
+  </text>
+  <text x="120" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#cbd5e0">
+    Vehicle Management
+  </text>
+  <text x="120" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#cbd5e0">
+    Stock Optimization
+  </text>
+  <text x="120" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#68d391">
+    AI-Powered Forecasting
+  </text>
+  
+  <rect x="220" y="300" width="140" height="100" rx="8" fill="#4a5568" stroke="#f6ad55" stroke-width="2"/>
+  <text x="290" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    Sales Service
+  </text>
+  <text x="290" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#cbd5e0">
+    Lead Management
+  </text>
+  <text x="290" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#cbd5e0">
+    Customer Analytics
+  </text>
+  <text x="290" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#f6ad55">
+    Revenue Prediction
+  </text>
+  
+  <rect x="390" y="300" width="140" height="100" rx="8" fill="#4a5568" stroke="#9f7aea" stroke-width="2"/>
+  <text x="460" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    Service Manager
+  </text>
+  <text x="460" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#cbd5e0">
+    Appointment Scheduling
+  </text>
+  <text x="460" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#cbd5e0">
+    Parts Management
+  </text>
+  <text x="460" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#9f7aea">
+    Predictive Maintenance
+  </text>
+  
+  <rect x="560" y="300" width="140" height="100" rx="8" fill="#4a5568" stroke="#63b3ed" stroke-width="2"/>
+  <text x="630" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    Finance Service
+  </text>
+  <text x="630" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#cbd5e0">
+    Transaction Processing
+  </text>
+  <text x="630" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#cbd5e0">
+    Reporting & Analytics
+  </text>
+  <text x="630" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#63b3ed">
+    Financial Forecasting
+  </text>
+  
+  <!-- Infrastructure Layer -->
+  <rect x="50" y="450" width="180" height="120" rx="8" fill="#2d3748" stroke="#38b2ac" stroke-width="2"/>
+  <text x="140" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    Container Orchestration
+  </text>
+  <text x="140" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#38b2ac">
+    Kubernetes</text>
+  <text x="140" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#cbd5e0">
+    Docker Containers</text>
+  <text x="140" y="525" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#cbd5e0">
+    Auto-scaling</text>
+  <text x="140" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#cbd5e0">
+    Load Balancing</text>
+  <text x="140" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#38b2ac">
+    99.8% Uptime</text>
+  
+  <rect x="260" y="450" width="180" height="120" rx="8" fill="#2d3748" stroke="#ed8936" stroke-width="2"/>
+  <text x="350" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    Database Layer
+  </text>
+  <text x="350" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ed8936">
+    SQL Server 2022</text>
+  <text x="350" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#cbd5e0">
+    Redis Cache</text>
+  <text x="350" y="525" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#cbd5e0">
+    Data Replication</text>
+  <text x="350" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#cbd5e0">
+    Backup & Recovery</text>
+  <text x="350" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ed8936">
+    100K+ Daily Transactions</text>
+  
+  <rect x="470" y="450" width="180" height="120" rx="8" fill="#2d3748" stroke="#9f7aea" stroke-width="2"/>
+  <text x="560" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    AI/ML Engine
+  </text>
+  <text x="560" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#9f7aea">
+    Machine Learning APIs</text>
+  <text x="560" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#cbd5e0">
+    Predictive Analytics</text>
+  <text x="560" y="525" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#cbd5e0">
+    Customer Behavior Analysis</text>
+  <text x="560" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#cbd5e0">
+    Dynamic Pricing</text>
+  <text x="560" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#9f7aea">
+    85% Accuracy Improvement</text>
+  
+  <!-- Arrows -->
+  <path d="M400 160 L400 190" stroke="white" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M400 260 L120 290" stroke="white" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M400 260 L290 290" stroke="white" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M400 260 L460 290" stroke="white" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M400 260 L630 290" stroke="white" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M140 400 L140 440" stroke="white" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M350 400 L350 440" stroke="white" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M560 400 L560 440" stroke="white" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+    refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="white" />
+    </marker>
+  </defs>
+</svg>
