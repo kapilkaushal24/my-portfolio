@@ -9,7 +9,7 @@
   # Environment variables for build
   [build.environment]
     NODE_VERSION = "18"
-    VITE_API_URL = "https://backend-portfolio-lpjj.onrender.com/api"
+    VITE_API_URL = "https://admin-api-zxwg.onrender.com/api"
   
   # Build image - Ubuntu Noble 24.04
   [build.processing]
